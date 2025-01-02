@@ -18,11 +18,9 @@ public class SubSequences {
             System.out.println(list);
             return;
         }
-//        list.add(arr[i]);
-        subSequence(arr, i + 1, list, n);
         list.push(arr[i]);
         subSequence(arr, i + 1, list, n);
-//        list.remove(arr[i-1]);
         list.pop();
+        subSequence(arr, i + 1, list, n);
     }
 }
