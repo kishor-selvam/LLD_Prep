@@ -9,8 +9,8 @@ package Recursion;
 
 public class CountOfAllSubSequences {
     public static void main(String[] args) {
-        int[] arr = {3, 1, 2, 4, 5};
-        int k = 5;
+        int[] arr = {3, 1, 2};
+        int k = 2;
         int sum = 0;
         int index = 0;
         int len = arr.length;
